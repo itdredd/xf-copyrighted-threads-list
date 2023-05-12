@@ -1,0 +1,14 @@
+{
+    "copyrighted_threads.txt": {
+        "global_cache": false,
+        "version_id": 1000030,
+        "version_string": "1.0.0 Beta",
+        "hash": "23b747257bf1315c865bcc119adfcd51"
+    },
+    "there_no_copyrighted_threads.txt": {
+        "global_cache": false,
+        "version_id": 1000030,
+        "version_string": "1.0.0 Beta",
+        "hash": "83f7ec95c699877e863853eb58847bbc"
+    }
+}

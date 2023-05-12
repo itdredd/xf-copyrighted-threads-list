@@ -1,0 +1,22 @@
+<xf:title>{{ phrase('copyrighted_threads') }}</xf:title>
+<xf:css src="structured_list.less" />
+
+<div class="block">
+	<div class="block-container">
+		<div class="block-body">
+			<div class="structItemContainer-group js-threadList">
+				<xf:if is="$threads is not empty">
+					<xf:foreach loop="$threads" value="$thread">
+						<xf:macro template="thread_list_macros" name="item" arg-thread="{$thread}" arg-forum="{$forum}" />
+					</xf:foreach>
+					<xf:else/>
+					<div class="structItemContainer-group js-threadList">
+						<div class="structItem js-emptyThreadList">
+							<div class="structItem-cell">{{ phrase('there_no_copyrighted_threads') }}</div>
+						</div>
+					</div>
+				</xf:if>
+			</div>
+		</div>
+	</div>
+</div>
